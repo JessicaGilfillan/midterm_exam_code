@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&family=Roboto&display=swap');
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('/assets/OpenSans-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*html {
+    /*font-size: 10px;
+}*/
+
+/* element selector */
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    /*font-size: 1.8rem;*/
+    /* 18/16 */
+    /* 16px is the default font-size for html */ 
+    font-size: 1.125rem;
+
+}
+
+/* id selector */
+
+#mainheading {
+    font-family: 'open_sansregular', sans-serif;
+}
+
+/* class selector */
+
+.wrapper {
+    width: 80vw;
+    margin: 0 auto;
+    background-color: #BADA55;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 3em 2em 0;
+    position: fixed;
+    bottom: 0;
+}
+
+table {
+    border-collapse: collapse;
+
+    table-layout: fixed;
+}
